@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  color: black;
+  font-family: sans-serif;
+  line-height:1.4;
+  margin-left: 230px ;
+  margin-right: 230px ;
+}
+
+.less{
+  border: 5px solid black;
+  width: 825px ;
+  margin: 50px auto ;
+}
+
+.school{
+  text-align: center;
+  text-transform: uppercase;
+  font-size:21px;
+  background-color: #f7f7f7;
+  padding: 10px ;
+}
+
+.mess{
+  font-size:24px;
+}
+ 
+.para{
+  margin-top: 10px;
+  margin-bottom: 8px;
+
+}
+
+.reacted{
+  font-size:12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:#777;
+  margin-bottom: 10px ;
+}
+.p-details{
+  text-transform: uppercase;
+  font-size: 20px ;
+  margin-top: 20px ;
+}
+
+.list{
+  list-style:square;
+  font-size:15px;
+  font-style:bold;
+  margin-top: 10px;
+  margin-left:15px ;
+  margin-bottom: 20px;
+}
+
+.list li{
+  margin-bottom: 20px;
+}
+.more:link, .more:visited{
+  color: black;
+}
+
+.more:hover, .more:active{
+  text-decoration: none;
+} 
+
+/* a:link{
+  color: black;
+}
+a:visited{
+color: black;
+} */
+
+.main{
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 50%;
+  padding: 15px;
+  border: none ;
+  cursor:pointer;
+width: 100%;
+}
+
+.main{
+  border-top: 5px solid black;
+}
+
+.main:hover{
+  color:black ;
+  background-color:white;
+}

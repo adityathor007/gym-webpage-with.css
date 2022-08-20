@@ -1,0 +1,160 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-family:sans-serif;
+  color: #444;
+  border-top: #24d7ff 15px solid;
+}
+
+.main-header{
+  background-color:#c4c4c4e4;
+  padding: 40px 20px ;
+  margin-bottom: 50px ;
+  height: 50px ;
+}
+ 
+      /* This Is Example Of Centering Page */
+.top{
+  width: 800px ;
+  margin: 0 ;
+}
+
+nav {
+  font-size: 18px ;
+}
+
+article{
+  margin: 40px ;
+}
+
+.dublicate{
+margin-bottom: 50px ;
+}
+
+aside{
+  background-color:#efe2e2d3;
+  border-top: 3px solid #212121;
+  border-bottom: 3px solid #212121; 
+ padding: 50px 0 ;
+}
+
+h1{
+   
+   font-size: 29px ;
+   font-style:italic;
+   text-transform:uppercase;
+}
+
+h2{
+    font-size: 35px  ;
+    text-transform:uppercase;
+}
+
+h3{
+   font-size: 28px ;
+   text-transform:uppercase;
+   margin-bottom: 20px ;
+   margin-top: 40px ;
+}
+h4{
+  font-size: 26px ;
+  text-transform:uppercase;
+  text-align:center;
+}
+
+h1,h2, h3 {
+  color: #3a0101;
+ 
+}
+
+p{
+  line-height: 1.5 ;
+  margin-bottom: 15px ;
+}
+
+ul, ol{
+  margin-left: 30px ;
+  margin-bottom: 20px ;
+}
+
+li{
+  font-size:14px;
+  margin: 30px ;
+}
+
+/* margin  */
+li:last-child{
+  margin: 30px ;
+}
+ #author {
+  font-size: 16px ;
+  font-weight:bold;
+}
+ 
+/* footer p{font-size:13 px;} */
+
+.author {
+  font-size: 10px ;
+  font-style: bold;
+}
+
+.related-author {
+  list-style:none;
+}
+
+/* body {
+  background-color:#efe2e2d3;
+} */
+             /* psedo class */
+
+li:first-child {
+  font-weight:bold;
+}
+
+li:last-child {
+font-style:italic;
+}
+
+/* li:nth-child(2) {
+  color: red;
+} */
+
+/* li:nth-child(4) {
+  color: rgb(0, 204, 255);
+} */
+/* li:nth-child(odd){
+  color: blue;
+} */
+
+/* pseudo */
+a:link{
+  color: rgb(12, 105, 255);
+  text-decoration:none;
+}
+
+a:visited{
+/* color: #444; */
+color: rgb(12, 105, 255);
+}
+
+a:hover{
+  color: rgb(255, 29, 29);
+  text-decoration: underline rgb(255, 30, 30);
+}
+
+a:active{
+  color:black ;
+  font-style: italic;
+}
+
+    /* LVHA */
+
+ /* This Is Example Of Dimension */
+
+    .gym{
+      width: 80% ;
+      height: auto ;
+    }
